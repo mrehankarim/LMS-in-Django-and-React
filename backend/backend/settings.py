@@ -40,7 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'api',
     'core',
-    'userauths'
+    'userauths',
+
+    #third part apps
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -181,3 +184,5 @@ JAZZMIN_UI_TWEAKS = {
         "success": "btn-success"
     }
 }
+
+
